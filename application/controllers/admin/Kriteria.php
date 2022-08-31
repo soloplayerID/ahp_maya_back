@@ -233,6 +233,8 @@ class Kriteria extends CI_Controller
 
     function ins_nilai_kriteria(){
         $input = $this->input->post();
+        print_r($input);
+        die();
         $inputan = array(
             
             'kriteria1' => $this->input->post('kriteria1'),

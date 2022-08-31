@@ -35,7 +35,7 @@ class Alternatif_Model extends CI_Model {
 
 	public function FunctionName(Type $var = null)
 	{
-		$this->db->query('select *, nilai_awal.id_nilai_awal as idnilai from nilai_awal, guru WHERE guru.nip = nilai_awal.nip')->result(),
+		$this->db->query('select *, nilai_awal.id_nilai_awal as idnilai from nilai_awal, guru WHERE guru.nip = nilai_awal.nip')->result();
 	}
 
 	function get_alter_nilai($id, $tahun){

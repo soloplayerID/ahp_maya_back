@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => '103.41.207.17',
 	'username' => 'root',
-	'password' => '',
-	'database' => 'db_apeg',
+	'password' => 'd3pananggreX!',
+	'database' => 'tims',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

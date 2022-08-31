@@ -22,7 +22,7 @@
 	<div class="col-lg-12 col-md-12 col-xs-12">
 		<div class="row">
 			<div class="col-md-8 text-left">
-				<strong style="font-size:18pt;"><span class="fa fa-table"></span> Penilaian Kinerja Guru</strong>
+				<strong style="font-size:18pt;"><span class="fa fa-table"></span> Penilaian Murid</strong>
 			</div>
 		</div>
 		<br>
