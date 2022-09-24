@@ -100,6 +100,8 @@ class Alternatif extends CI_Controller {
 	public function ins_nilai()
 	{
 		$input = $this->input->post();
+		print_r($input);
+		die();
 
 		$total = 0;
 
@@ -237,6 +239,7 @@ class Alternatif extends CI_Controller {
 
 	public function perbandingan_alternatif_single(){
 		$input = $this->input->post();
+		
 		$id = $this->input->post('kriteria');
 
 		/*$this->pre($id);

@@ -41,7 +41,7 @@
 							<td class='bg-light'><b>$value->nama</b></td>";
 							foreach ($nilai as $keys => $values) {
 								if($value->nip == $values->alternatif){
-									echo "<td class='bg-light'><b>$values->prioritas</b></td>";	
+									echo "<td class='bg-light'><b>$values->prioritas</b></td>";
 								}
 							}
 					echo "</tr>";
